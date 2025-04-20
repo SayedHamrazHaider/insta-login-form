@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(29, 25, 25);
+    display: block;
+}
+
+img{
+    width: 400px;
+    height: 150px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    color: rgb(7, 7, 7);
+    font-weight: bolder;
+}
+
+.log-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.log-in input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(53, 40, 40);
+    border: 1px solid white;
+    color: white;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.log-in input:active{
+    border: 2px solid white;
+    box-shadow: 5px;
+}
+
+.log-in button{
+    width: 300px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+#fb{
+    color: rgb(5, 5, 248);
+}
+
+.sign-up{
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color: rgb(30, 31, 31);
+    padding-top: 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}

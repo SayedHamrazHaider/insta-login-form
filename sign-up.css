@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(29, 25, 25);
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    height: 150px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 200;   
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px; 
+}
+
+.inputs input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(53, 40, 40);
+    border: 1px solid white;
+    color: white;
+    padding-left: 5px;
+}
+
+.inputs a{
+    color: rgb(106, 106, 214);
+}
+
+.log-in-part{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.log-in-part a{
+    color: rgb(106, 106, 214);
+}
